@@ -1,0 +1,3 @@
+
+# Starship configuration
+format = "[$directory]($style) $all"
