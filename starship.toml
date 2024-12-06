@@ -1,3 +1,18 @@
+# /etc/nixos/starship.toml
 
-# Starship configuration
-format = "[$directory]($style) $all"
+# Starship Configuration
+
+# Add a newline before the prompt
+add_newline = false
+
+# Character Symbol
+[character]
+symbol = "➜"
+
+# Git Branch Symbol
+[git_branch]
+symbol = "🌿 "
+
+# Git Status
+[git_status]
+format = "([
