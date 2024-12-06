@@ -1,4 +1,4 @@
-# /etc/nixos/flake.nix
+# /mnt/etc/nixos/flake.nix
 
 {
   description = "NixOS Configuration for Lenovo ThinkPad E470 with Hyprland and WezTerm";
@@ -122,12 +122,12 @@
 
               # Filesystem configuration (replace UUIDs accordingly)
               fileSystems."/" = {
-                device = "/dev/disk/by-uuid/YOUR_ROOT_UUID";
+                device = "/dev/disk/by-uuid/abcd-1234"; # Replace with your root UUID
                 fsType = "ext4";
               };
 
               fileSystems."/home" = {
-                device = "/dev/disk/by-uuid/YOUR_HOME_UUID";
+                device = "/dev/disk/by-uuid/ijkl-5678"; # Replace with your home UUID
                 fsType = "ext4";
               };
 
